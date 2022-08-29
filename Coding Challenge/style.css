@@ -1,0 +1,86 @@
+body {
+  background-image: url(IMG/background.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment:fixed;
+}
+
+.container {
+  background-color: #00000085;
+  width: 1300px;
+  height: 850px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#logo {
+  width: 20%;
+  height: 20%;
+  margin-top: 5%;
+}
+
+header {
+  text-align: center;
+  color: lime;
+}
+
+nav div {
+  background-color: lime;
+  width: 1000px;
+  height: 45px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 10%;
+}
+
+div button {
+  margin-top: 13px;
+  text-align: center;
+}
+
+div h2 {
+  color: white;
+  display: inline-block;
+  margin: 5px;
+}
+
+.testo {
+  color: white;
+}
+
+.testo:before {
+  content: "\21A6 \0020";
+}
+
+p {
+  color: white;
+  margin: 5px;
+}
+
+.row {
+  height: 30px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.row.one {
+  background-color: #e9a830;
+  width: 30%;
+}
+
+.row.two {
+  background-color: #10b710;
+  width: 50%;
+}
+
+.row.three {
+  background-color: #e53e3e;
+  width: 13%;
+}
+
+main {
+  margin-left: 10%;
+}
